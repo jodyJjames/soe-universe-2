@@ -1,0 +1,32 @@
+DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SoE Universe</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- Animated Logo Intro -->
+  <div id="intro" class="intro-screen">
+    <video autoplay muted loop id="logo-video">
+      <source src="logo.mp4" type="video/mp4" />
+      Your browser does not support video playback.
+    </video>
+  </div>
+
+  <!-- Main Menu -->
+  <div id="main-menu" class="menu hidden">
+    <h1 class="title">Welcome to the SoE Universe 🌍</h1>
+    <div class="button-container">
+      <button onclick="navigate('watch')">🎬 Watch</button>
+      <button onclick="navigate('play')">🎮 Play</button>
+      <button onclick="navigate('explore')">🌎 Explore</button>
+      <button onclick="navigate('live')">🔴 Live</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
